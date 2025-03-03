@@ -44,7 +44,7 @@ const SignUp = () => {
       } else {
         localStorage.setItem("token", result.data);
         Swal.fire({
-            title: "Log In Successful",
+            title: "Registration Successful",
             icon: "success",
             draggable: false,
           })
